@@ -54,13 +54,14 @@ a {
 
 #login {
     max-width: 700px;
+    border-radius: 25px;
     text-align: center;
     margin: auto;
     margin-top: 8%;
 }
 
 #login-content {
-    padding: 1em;
+    padding: 2em;
 }
 
 input[type=text], input[type=password] {
