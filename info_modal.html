@@ -13,7 +13,7 @@
 
     <link rel="stylesheet" href="./style.css">
 
-    <!--W3 Schools example modal stylesheet-->
+    <!--W3 Schools example CSS stylesheet-->
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
     <script src="https://kit.fontawesome.com/1318521274.js" crossorigin="anonymous"></script>
@@ -36,19 +36,87 @@
             </div>
         </div>
     </div>
-    <div class="w3-container">
-      <h2>W3.CSS Modal</h2>
-      <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-black">Open Modal</button>
-      <div id="id01" class="w3-modal">
-        <div class="w3-modal-content">
-          <div class="w3-container">
-            <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-display-topright">&times;</span>
-            <p>Some text. Some text. Some text.</p>
-            <p>Some text. Some text. Some text.</p>
+    <!--This code is based off of the examples shown in Bootstrap's Modal Documentation-->
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#exampleModal">
+      Info Card Modal Ex
+    </button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Bacon Ipsum</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>Docker: Spicy jalapeno bacon ipsum dolor amet fugiat salami picanha proident fatback, rump ad</p>
+            <p>RPM: lorem anim sint. Do pariatur pancetta mollit id ut ball tip cow. Brisket salami rump et adip</p>
+            <p>Info: isicing beef ribs labore pig quis tri-tip kielbasa swine meatloaf cupim sunt. Pork belly pork </p>
+            <p>Info: chop cillum salami sausage enim ham ex proident in nisi dolore dolor veniam. Buffalo</p>
+            <p>Info: minim tongue pastrami cillum shoulder. Voluptate fatback buffalo adipisicing, boudin irure </p>
+            <p>Info: venison tongue aute kevin.</p>
+          </div>
+          <div class="modal-footer">
           </div>
         </div>
       </div>
     </div>
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#E">
+      Compare Card Modal Ex
+    </button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="E" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-md-6">
+                  <h5>Bacon Ipsum</h5>
+                </div>
+                <div class="col-md-6">
+                  <h5>Bacon Ipsum Improved</h5>
+                </div>
+              </div>
+            </div>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-md-6">
+                  <p>Docker: Spicy jalapeno bacon ipsum dolor amet fugiat salami picanha proident fatback, rump ad</p>
+                  <p>RPM: lorem anim sint. Do pariatur pancetta mollit id ut ball tip cow. Brisket salami rump et adip</p>
+                  <p>Info: isicing beef ribs labore pig quis tri-tip kielbasa swine meatloaf cupim sunt. Pork belly pork </p>
+                  <p>Info: chop cillum salami sausage enim ham ex proident in nisi dolore dolor veniam. Buffalo</p>
+                  <p>Info: minim tongue pastrami cillum shoulder. Voluptate fatback buffalo adipisicing, boudin irure </p>
+                  <p>Info: venison tongue aute kevin.</p>
+                </div>
+                <div class="col-md-6">
+                  <p>Docker: Spicy jalapeno bacon ipsum dolor amet spare ribs pork chuck, ribeye shankle swine kielbasa </p>
+                  <p>RPM: tri-tip. Turducken bacon sirloin, picanha pork pork belly chuck rump burgdoggen. Pork </p>
+                  <p>Info: chop sausage tri-tip prosciutto turducken leberkas pork turkey cupim. Doner cupim ham </p>
+                  <p>Info: hock pig chicken meatloaf. Pancetta pork loin beef ribs pastrami kielbasa flank picanha</p>
+                  <p>Info: pork belly filet mignon corned beef landjaeger spare ribs jowl venison. Spare ribs rump pi</p>
+                  <p>Info: canha jowl andouille ham pork chop burgdoggen jerky.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--End of code based off Bootstrap Modal Documentation-->
     <div id="footer" class="theme-background">
         &copy; 2019 - Various People - <a href="https://theforeman.org">theforeman.org</a>
     </div>
