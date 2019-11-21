@@ -52,6 +52,10 @@ a {
     color: #fff;
 }
 
+.fake-trello{
+    text-align: center;
+}
+
 #login {
     max-width: 700px;
     text-align: center;
