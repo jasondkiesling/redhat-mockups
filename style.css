@@ -63,6 +63,10 @@ a {
     margin-top: 8%;
 }
 
+#login-content {
+    padding: 1em;
+}
+
 input[type=text], input[type=password] {
     width: 100%;
     padding: 12px 20px;
