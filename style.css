@@ -109,3 +109,12 @@ button {
     height: 3em;
     vertical-align: middle;
 }
+
+.search {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.searchButton {
+    margin-top: 1rem;
+}
