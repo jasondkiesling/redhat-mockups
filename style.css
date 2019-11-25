@@ -103,3 +103,9 @@ input[type=text], input[type=password] {
 button {
     margin-bottom: 1em;
 }
+
+.lifecycle-title {
+    font-size: 200%;
+    height: 3em;
+    vertical-align: middle;
+}
